@@ -2,6 +2,8 @@
   background-color: #f2f2f2;
   --high-rate-colour: #9335ff;
   --low-rate-colour: #e89d40;
+  font-family: "Comfortaa", sans-serif;
+  color: #999999;
 }
 
 p, h3 {

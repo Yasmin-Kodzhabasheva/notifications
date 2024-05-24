@@ -4,6 +4,7 @@
             {
                 "subject_id": 10,
                 "question_id": 20,
+                "score": 4,
                 "thread_id": "5ca388e1a59a5a12444ba107",
                 "reply_to": "5cab51c4a59a5a124c196b1d",
                 "text": "fsdfsdf",

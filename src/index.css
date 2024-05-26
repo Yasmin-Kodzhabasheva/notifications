@@ -1,7 +1,7 @@
 :root {
-  background-color: #f2f2f2;
   --high-rate-colour: #9335ff;
   --low-rate-colour: #e89d40;
+  background-color: #f2f2f2;
   font-family: "Comfortaa", sans-serif;
   color: #999999;
 }
@@ -11,15 +11,29 @@ p, h3 {
 }
 
 .notifications-container {
-  width: 780px;
+  max-width: 780px;
+  min-width: 320px;
+  width: 100%;
   background-color: #ffffff;
   border-radius: 10px;
   box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
   padding: 30px;
 }
 
+.main-information-container {
+  display: flex;
+  justify-content: space-between;
+}
+
 .text-container  {
   margin-top: 1em;
+}
+
+.team-date-container {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
 }
 
 .heading-high-rate {
